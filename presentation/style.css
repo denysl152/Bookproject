@@ -1,0 +1,81 @@
+body{
+    font-family: 'Black Han Sans', sans-serif;
+}
+h1 , h2 , h3 , h4{
+    font-family: 'Indie Flower', cursive;
+} 
+fieldset{
+    width: 90%;
+}
+.Menu{
+    display: flex;
+    justify-content:space-between;
+}
+.libelle{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom:132px; 
+}
+.Lop{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 60px;
+}
+footer{
+    background-color: lightgreen;
+    font-family: 'IBM Plex Mono', monospace;
+    padding: 20px;
+    text-align: center; 
+}
+.centpourcent{
+    width: 100%;
+}
+
+.Partcrud{
+    display: flex;
+    justify-content: space-around;
+}
+footer{
+    background-color: violet;
+    font-family: 'IBM Plex Mono', monospace;
+    padding: 20px;
+    text-align: center; 
+}
+.centpourcent{
+    width: 100%;
+}
+body{
+    font-family: 'Black Han Sans', sans-serif;
+}
+h1 , h2 , h3 , h4{
+    font-family: 'Indie Flower', cursive;
+} 
+.Partcrud{
+    display: flex;
+    justify-content: space-around;
+}
+p{
+    font-family: 'Black Han Sans', sans-serif;
+}
+a{
+    color: gray;
+    text-decoration-style: none;
+}
+.nav-extended{
+    background-color:violet;
+    width:100%;
+}
+@media screen and (max-width: 700px){
+    .nav-extended{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        
+    }
+    .nav-wrapper{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+}
